@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Google Drive</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      max-width: 720px;
+      margin: auto;
+      aspect-ratio: 16/9; /* biar tetap proporsional */
+    }
+    .video-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <h2>Video Google Drive</h2>
+  <div class="video-container">
+    <iframe src="https://drive.google.com/file/d/1didUwbUvqXCooG-jkoMro1YYOf-lywGx/view?usp=drivesdk" allow="autoplay"></iframe>
+  </div>
+</body>
+</html>
